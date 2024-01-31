@@ -1,0 +1,133 @@
+html {
+  height: 100%;
+}
+body{
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 70px;
+}
+.body-top {
+  width: 80%;
+  border: none;
+  margin: auto;
+  font-family: Verdana;
+  font-style: normal;
+  font-size: normal;
+  font-weight: bold;
+  text-align: center;
+}
+header {
+  padding: 1em;
+  color:white;
+  background-color: #007196;
+  vertical-align: center;
+}
+#logo {
+  max-width: 180px;
+  max-height: 140px;
+}
+.col-9 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.code {
+  width: 100%;
+}
+h1 {
+  margin: auto;
+}
+a {
+  color: white;
+}
+.links {
+  font-family: Verdana;
+  font-style: normal;
+  font-size: normal;
+  background-color: #66CDAA;
+  margin: auto;
+  border: solid white;
+  padding: 5px;
+  text-decoration: none;
+  box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px #000 inset;
+}
+.tour {
+  border: solid #007196;
+  height: 100%;
+}
+.tour img {
+  width: 250px;
+  height: 170px;
+  padding: 5px;
+}
+.tour2 {
+  margin: auto;
+  display: flex;
+}
+.tour2 p .tour2 img {
+  margin: 0 10px;
+}
+.tour1 {
+  width: 30%;
+}
+.tours {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tour1 a {
+  padding: 5px;
+}
+.btn {
+  margin-left: auto;
+  order: 999;
+  background-color: #66CDAA;
+  box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px #000 inset;
+  color: white;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  color: white;
+  background-color: #007196;
+  padding: 10px;
+}
+table {
+  width: 80%;
+  margin: auto;
+}
+table td {
+  border: #007196 2px solid;
+}
+form {
+  margin: 50px auto;
+  border: #007196 2px solid;
+  width: 80%;
+  padding: 10px;
+}
+input, textarea {
+  box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px #000 inset;
+  border-radius: 10px;
+}
+@media screen and (max-width: 960px) {
+  a {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .tour {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px){
+  #logo {
+    max-width: 100px;
+    max-height: 70px;
+  }
+  h1 {
+    font-size: 14px;
+  }
+}
